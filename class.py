@@ -28,8 +28,8 @@ class CAR:
 
     # parameter in methods
     def display_info(self,color):
-        print("Car Info: {self.brand} {self.model} ({self.year}), Color: {color}")
+        print(f"Car Info: {self.brand} {self.model} ({self.year}), Color: {color}")
 
 maruti = CAR("maruti","swift",2020)
 maruti.start_engine()
-maruti.display_info()
+maruti.display_info("red")
